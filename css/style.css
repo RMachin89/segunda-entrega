@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #272727;
+}
+
+
+h1 {
+    font-family: "new rocker", Times, serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    font-family: 'RocknRoll One', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+form {
+    color: #ffffff;
+    margin: auto;
+    background-color: rgb(26, 71, 8);
+}
+
+fieldset {
+    width: 340px;
+    height: 170px;
+}
+
+.navbar {
+    background-color: #272727;
+}
+
+
+#strong {
+    color: rgb(177, 9, 9);
+}
+.menu-nav a{
+    color: aliceblue;
+    font-family: "RocknRoll One";
+}
+.menu-nav li{
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.inicio {
+    background-color: rgb(26, 71, 8);
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.aficheindex {
+    margin: auto;
+    padding: auto;
+    align-self: center;
+}
+
+.como-ir {
+    width: 150px;
+}
+
+.afiche p a img{
+    max-width: 500px;
+    align-items: center;
+    text-align: center;
+}
+
+.afiche {
+    text-align: center;
+}
+
+.ubicacion {
+    margin: auto;
+    padding: 90px;
+    background-color: rgb(26, 71, 8);
+    position: relative;
+    max-width: 30%;
+
+}
+.ubicacion a {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.formulario {
+    display: flexbox;
+    flex:auto;
+}
+.spotify {
+    position: relative;
+}
+.spotify iframe {
+    position: sticky;
+    bottom: 0;
+
+}
+
+.logo {
+    width: 5%;
+    border-radius: 100%;
+}
