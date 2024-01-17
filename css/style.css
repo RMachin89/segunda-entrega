@@ -7,13 +7,13 @@ body {
     background-color: #272727;
 }
 
-
 h1 {
     font-family: "new rocker", Times, serif;
     font-weight: 400;
     color: #ffffff;
     margin: auto;
     text-align: center;
+    font-size: 100px;
 }
 
 p {
@@ -21,16 +21,17 @@ p {
     font-weight: 400;
     color: #ffffff;
 }
-
+img{
+    width: 100%;
+}
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-img {
-    width: 100%;
+iframe {
+    align-self: flex-end;
 }
-
 form {
     color: #ffffff;
     margin: auto;
@@ -42,6 +43,13 @@ fieldset {
     height: 170px;
 }
 
+section {
+    height: 200px;
+}
+
+footer {
+    align-self: self-end;
+}
 .navbar {
     background-color: #272727;
 }
